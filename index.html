@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week2 - VaultofCodes</title>
+
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Basic styling for the internship card */
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .internship-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 30px;
+            margin: 10px;
+        }
+
+        .internship-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(173, 172, 172, 0.8);
+            padding: 50px;
+            font-size: 20px;
+            margin: 20px;
+            text-align: justify;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .internship-item ul li {
+            line-height: 1.3rem;
+        }
+
+        .view-details {
+            display: block;
+            width: 50%;
+            margin: 0 auto;
+            background: rgb(11, 117, 224);
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            border: none;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        @media screen and (max-width:925px) {
+            .internship-container {
+                display: flex;
+                flex-direction: column;
+                width: calc(50%-40px);
+            }
+        }
+
+        @media screen and (max-width:500px) {
+            .internship-item {
+                width: calc(50%-40px);
+
+
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Internships</h1>
+    <div class="internship-container">
+        <div class="internship-item">
+            <h2>Web Development</h2>
+            <h2>Internship Program </h2>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend -</li>
+                <li>Start date: 05/11/2023</li>
+            </ul>
+            <button class="view-details">View Details</button>
+        </div>
+        <div class="internship-item">
+            <h2>App Development </h2>
+            <h2>Internship Program </h2>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend -</li>
+                <li>Start date: 05/11/2023</li>
+            </ul>
+            <button class="view-details">View Details</button>
+        </div>
+        <div class="internship-item">
+            <h2>Python Programming</h2>
+            <h2>Internship Program </h2>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend -</li>
+                <li>Start date: 05/11/2023</li>
+            </ul>
+            <button class="view-details">View Details</button>
+        </div>
+        <div class="internship-item">
+            <h2>Java Programming</h2>
+            <h2>Internship Program </h2>
+            <ul>
+                <li>Duration: 1 month/2 months</li>
+                <li>Location: Virtual</li>
+                <li>Stipend -</li>
+                <li>Start date: 05/11/2023</li>
+            </ul>
+            <button class="view-details">View Details</button>
+        </div>
+    </div>
+</body>
+
+
+</html>
